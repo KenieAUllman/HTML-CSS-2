@@ -1,0 +1,76 @@
+.weird-shapes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start; 
+    border-color: black;
+    border-style: solid;
+}
+
+.ugly-yellow-bar-container {
+    border-style: dotted;
+    border-color: black;
+    border-width: 3px;
+    margin: 20px 0px 20px 0px;
+    justify-content: center;
+}
+
+#ugly-yellow-bar {
+    width: 500px;
+    height: 100px;
+    background: palegoldenrod;
+    margin: 30px;
+    box-shadow: 3px 5px 5px 3px black, 0 5px 3px -3px black;
+    justify-content: center;
+}
+
+.generic-greeting {
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    box-shadow: 5px 5px 2px 1px lightgrey, 0 5px 3px -3px lightgrey;
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#Hello-Peeps {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#skinny-rectangle {
+    width: 30px;
+    height: 75px;
+    background: blue;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+#long-rectangle {
+    width: 200px;
+    height: 100px;
+    background: green;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
